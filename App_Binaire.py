@@ -20,10 +20,10 @@ except Exception as e:
     st.stop()
 
 # --- INTERFACE ---
-st.title("⚖️ Binary Classification - Stage 1 Winner")
+st.title("⚖️ Binary Classification ")
 
 # --- SCÉNARIOS DE TEST (Sidebar) ---
-st.sidebar.header("🚀 Quick Test Scenarios")
+st.sidebar.header("🚀  Scénarios de Test Rapide")
 
 # Initialisation des valeurs par défaut
 if 'val_type' not in st.session_state:
